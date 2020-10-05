@@ -1,17 +1,31 @@
 /* -------------------------------------- *
 General Styles
 * --------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Raleway&display=swap');
+
 body {
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: font-family: 'Raleway', sans-serif;
   font-size: 20px;
+  color: #ffffff
 }
-
-h1,
+body {background-color: #F8B3BA}
+h1 {
+  color:rgba(255,255, 255, .50);
+  font-size: 50px;
+  font-family: 'Alfa Slab One', cursive;
+}
+header {
+  border: 1px solid white;
+  background-image: url(../images/solen-feyissa-LHWN4yEq5po-unsplash.jpg);
+  background-size: cover;
+  height: 75px;
+}
 h2,
 h3 {
   font-size: 36px;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #453D98;
 }
 main,
 header h1,
@@ -26,9 +40,9 @@ nav a {
   padding-right: 20px;
 }
 nav a:hover {
-  color: #333;
+  color: #E3C5E0;
 }
 nav {
-  background-color: #ccc;
+  background-color: white;
   padding: 12px;
 }
