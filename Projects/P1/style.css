@@ -1,10 +1,18 @@
 .about {
     display: flex;
-    min-height: 100vh
-    
+    min-height: 100vh;
+    width: 1000px;
+    resize: horizontal;
+    float: right;
+    margin-top: 200px;
+    margin-right: 100px;   
 }
 .about div {
     flex:1; 
     justify-content: flex-end; 
-
+}
+header{
+    
+    background-image: url("images/IMG_6963.jpg");
+    background-size: 300px 100px; 
 }
