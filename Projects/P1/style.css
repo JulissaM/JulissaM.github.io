@@ -1,20 +1,65 @@
-.about {
-    display: flex;
-    min-height: 100vh;
-    width: 800px;
-    resize: horizontal;
-    float: right;
-    margin-top: 200px;
-    margin-right: 200px;   
-}
-.about div {
-    flex:1; 
-    justify-content: flex-end; 
-}
-header{
-    background-image: url("images/IMG_6963.jpg");
-    background-size: 300px 100px; 
-}
 .a1 {
-    margin-right: 20px;
+    display: flex;
+    min-height: 10vh;
+    max-height: 100px;
+    resize: horizontal;
+    margin-top: 250px;  
+    position: absolute;
+    width: 850px;
+    float: left;
+    margin-left: 1300px; 
+    
 }
+.a2 {
+    display: flex;
+    min-height: 10vh;
+    max-height: 100px;
+    resize: horizontal;
+    margin-top: 500px;  
+    position: absolute;
+    width: 800px;
+    float: right;
+    margin-left: 2200px;
+}
+.overlap {
+    height: auto;
+    width: auto;
+    margin-top: -600px;
+    margin-left: 50px;
+    position: relative;
+    float: left;
+}
+h1 {
+    font-size: 100px;
+    position: absolute;
+    margin-top: -230px;
+    margin-left: -10px;
+}
+p {
+font-size: 30px;
+position: absolute;
+}
+.ap1 {
+    margin-top: -180px;
+}
+.mainpic {
+    max-width: 2000px;
+    max-height: 2000px;
+    margin-left: -80px;
+    margin-top: 500px;
+    position: relative;
+}
+    
+.box {
+    display: inline-block;
+    background-color: white;
+    border-radius: 40px;
+    padding-left: 100px;
+    padding-right: 800px;
+    padding-bottom: 250px;
+    padding-top: 300px;
+    max-width: 50px;
+
+    
+}
+
