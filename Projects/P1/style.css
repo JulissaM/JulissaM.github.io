@@ -192,6 +192,7 @@ color: #F25050;
     position:fixed;
     margin-top: 1700px;
     margin-left: -7px;
+    
 }
 .three_column {
     display: flex;
@@ -277,6 +278,7 @@ color: #F25050;
     position: absolute;
     margin-left: 130px;
     margin-top: 3400px;
+    
     
 }
 .tamarind_circle {
@@ -450,7 +452,7 @@ color: #F25050;
     background-color: white;
     border-radius: 120px;
     padding-left: 80px;
-    padding-right: 1800px;
+    padding-right: 1450px;
     padding-bottom: 580px;
     padding-top: 200px;
     max-width: 2000px;
@@ -463,7 +465,7 @@ color: #F25050;
     resize: horizontal;
     margin-top: 3300px;  
     position: absolute;
-    width: 1200px;
+    width: 1000px;
     float: left;
     margin-left: -800px;
 }
@@ -475,9 +477,9 @@ color: #F25050;
     resize: horizontal;
     margin-top: 3500px;  
     position: absolute;
-    width: 600px;
+    width: 400px;
     float: right;
-    margin-left: 150px;
+    margin-left: -40px;
 }
 
 .r2h1 {
@@ -582,7 +584,7 @@ color: #F25050;
     background-color: white;
     border-radius: 120px;
     padding-left: 80px;
-    padding-right: 1800px;
+    padding-right: 1600px;
     padding-bottom: 560px;
     padding-top: 300px;
     max-width: 2000px;
@@ -664,6 +666,18 @@ width: 700px;
     margin-top: 1400px;
     margin-left: -7px;   
 }
+.rectangle8 {
+    width:100%;
+    height:350px;
+    background-color: #F2CB05;
+    position: absolute;
+    margin-top: 1640px;
+    margin-left: -7px; 
+    z-index: 1;
+}
+
+
+
 .rectangle5 {
     width:100%;
     height:500px;
@@ -683,9 +697,14 @@ width: 700px;
 .blocations {
     background-image: url("images/Screen\ Shot\ 2020-10-17\ at\ 10.31.45\ AM.png");
     height: 50%; 
-    background-position: 100% -5%;
+    background-position: 100% 1%;
     background-repeat: no-repeat;
     background-size: 2500px;
+    border-radius: 4em;
+}
+.blocations {
+    background-color: white;
+    
 }
 .h1locations {
     font-family: cubano, sans-serif;
@@ -693,18 +712,119 @@ width: 700px;
     font-style: normal;
     font-size: 100px;
     position: absolute;
-    margin-top: 100px;
-    margin-left: 300px;
+    margin-top: 30px;
+    margin-left: 200px;
     color: #F25050;
     width: 800px;
 }
 .box10 {
     display: inline-block;
     background-color: white;
-    border-radius: 120px;
-    padding-left: 50px;
-    padding-right: 1200px;
-    padding-bottom: 600px;
-    padding-top: 30px;
+    border-radius: 0px 0px 120px 0px;
+    padding-left: -800px;
+    padding-right: 1060px;
+    padding-bottom: 450px;
+    padding-top: 50px;
     max-width: 2000px;
+}
+
+
+
+
+
+
+.proj-hover {
+    position: relative;
+    width: 800px;
+    margin: auto;
+  }
+  
+  .proj-hover img {
+    width: 100%;
+  }
+  .proj-hover .text-hover {
+    display: block;
+    width: 800px;
+    height: auto;
+  }
+  
+  .proj-hover .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 800px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #F2CB05;
+    z-index: 1;
+  
+  }
+  
+  .proj-hover:hover .overlay {
+    opacity: 1;
+  }
+  
+  .proj-hover .text {
+    color: white;
+    font-family: cubano, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  
+  }
+  .proj-hover .text a {
+    color: #fff;
+  }
+.gallery {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: flex-end;
+      justify-content: space-between;
+      margin-top: 1200px;
+      margin-left: 200px;
+  }
+  .single-img {
+      padding: 50px;
+  }
+
+
+.rectangle9 {
+    width:100%;
+    height:600px;
+    background-color: #F25050;
+    position: absolute;
+    margin-top: 4515px;
+    margin-left: 10px;
+    z-index: -2;
+}
+.rectangle10 {
+    width:100%;
+    height:800px;
+    background-color: white;
+    position:fixed;
+    margin-top: 1700px;
+    margin-left: -7px;
+}
+
+.bottomnav4 {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: baseline;
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 500px;
+    
+    
 }
