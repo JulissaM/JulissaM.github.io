@@ -82,7 +82,7 @@ color: #F25050;
 .box {
     display: inline-block;
     background-color: white;
-    border-radius: 120px 0 120px 120px;
+    border-radius: 120px;
     padding-left: 100px;
     padding-right: 1000px;
     padding-bottom: 200px;
