@@ -6,6 +6,16 @@
 
 /* Main Page */
 
+
+.bmain {
+    background-image: url("images/IMG_6963.pdf");
+    height: 25%; 
+    background-position: center 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 .a1 {
     display: flex;
     min-height: 10vh;
@@ -66,6 +76,7 @@ color: #F25050;
     position: relative;
     height: 1000px;
     overflow: hidden;
+    z-index: -10;
 }
     
 .box {
@@ -82,7 +93,7 @@ color: #F25050;
     display: flex;
     width: 90%;
     margin: 0 auto;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: baseline;
     position: absolute;
     margin-top: 950px;
@@ -102,13 +113,11 @@ color: #F25050;
     margin-left: -15px;
 }
 
-
-/* About Page */
-
-
 .bmain {
     background-color: #F25050;
 }
+
+
 .rc_nav {
     overflow: hidden;
     background-color: #F25050;
@@ -147,6 +156,14 @@ color: #F25050;
     margin-top: 100px;  
     color: #8e909b;
   }
+
+
+
+
+
+  /* About Page */
+
+
 
 .babout {
     background-image: url("images/IMG_0692.jpg");
@@ -285,7 +302,7 @@ color: #F25050;
     display: flex;
     width: 90%;
     margin: 0 auto;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: baseline;
     position: absolute;
     margin-left: 80px;
@@ -684,12 +701,19 @@ width: 700px;
     display: flex;
     width: 90%;
     margin: 0 auto;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: baseline;
     position: absolute;
     margin-left: 130px;
     margin-top: 4000px;
 }
+
+
+
+/* Misc boxes */
+
+
+
 .rectangle4 {
     width:100%;
     height:520px;
@@ -708,8 +732,6 @@ width: 700px;
     z-index: 1;
 }
 
-
-
 .rectangle5 {
     width:100%;
     height:400px;
@@ -727,6 +749,31 @@ width: 700px;
     margin-left: 10px;
    
 }
+.rectangle11 {
+    width:100%;
+    height:7000px;
+    background-color: #F2CB05;
+    position:fixed;
+    margin-top: 420px;
+    margin-left:-10;
+
+}
+.rectangle12 {
+    width:100%;
+    height:200px;
+    background-color: white;
+    position:fixed;
+    margin-top: 800px;
+
+    
+}
+
+
+
+/* Locations */
+
+
+
 .blocations {
     background-image: url("images/Screen\ Shot\ 2020-10-17\ at\ 10.31.45\ AM.png");
     height: 50%; 
@@ -862,27 +909,9 @@ width: 700px;
     
 }
 
-.rectangle11 {
-    width:100%;
-    height:7000px;
-    background-color: #F2CB05;
-    position:fixed;
-    margin-top: 420px;
-    margin-left:-10;
-    z-index: -1;
-}
-.rectangle12 {
-    width:100%;
-    height:200px;
-    background-color: white;
-    position:fixed;
-    margin-top: 800px;
-    margin-left: 0;
-    z-index: 1;
-    
-}
 
 
+/* Enter Page */
 
 .fullscreen-bg {
     position: fixed;
