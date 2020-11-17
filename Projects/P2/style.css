@@ -1,0 +1,211 @@
+* {
+  box-sizing: border-box;
+}
+@import url("https://use.typekit.net/nvs3oqg.css");
+@font-face {
+  font-family: 'postercompressed';
+  src: url('fonts/PosterCompressed-Regular.ttf');
+  font-weight: normal;
+  font-size: normal;
+
+
+}
+
+.orange {
+    width: 100%;
+    height: 3200px;
+    margin-top: -10px;
+    margin-left: -10px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: #FF6633;
+
+    
+}
+.spiral {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 1200px;
+}
+
+.spiralb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.title {
+  font-family: 'postercompressed', sans-serif;
+  font-size: 200px;
+  color: #fff;
+  position: absolute;
+  text-align: center;
+  margin-top: 900px;
+  z-index: 2
+}
+
+.titleb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.about {
+  font-family: 'postercompressed', sans-serif;
+  font-size: 500px;
+  color: #3399CC;
+  position: relative;
+  margin-top: -50px;
+  margin-left: 5px;
+
+
+}
+.about {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.ap {
+  margin-top: -400px;
+
+}
+
+p {
+  font-family: 'itc-avant-garde-gothic-pro', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 12pt;
+  color: #fff;
+  position: relative;
+  padding-right: 40px;
+}
+
+h2 {
+  font-family: 'itc-avant-garde-gothic-pro', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 12pt;
+  color: #fff;
+  position: relative;
+  padding-right: 40px;
+}
+
+.aboutflex {
+  max-width: 1335px;
+  margin: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+}
+
+
+
+
+@media(min-width: 1220px) {
+  .about {
+    font-family: 'postercompressed', sans-serif;
+    font-size: 2000px;
+  }
+  .ap {
+    margin-top: -600px;
+  }
+
+  .aboutflex {
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+    justify-content: space-between;
+  
+  }
+  .about1 {
+    float: right; 
+    width: 33%;
+    margin-top: -750px;
+    
+  }
+  .about2 {
+    float: right; 
+    width: 33%;
+    margin-top: -230px;
+  }
+  .about3 {
+    float: right; 
+    width: 33%;
+    
+  }
+  .about4 {
+   float: left;  
+    width: 33%;
+    
+    
+  }
+  .about5 {
+    float: right;
+    width: 33%;
+  }
+
+
+
+
+
+
+}
+
+
+
+
+@media(min-width: 815px) {
+  .about {
+    font-family: 'postercompressed', sans-serif;
+    font-size: 800px;
+  }
+  .ap {
+    margin-top: -600px;
+  }
+
+  .aboutflex {
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-content: space-between;
+  
+  }
+ 
+    
+  
+  .about2 {
+    float: right; 
+    width: 33%;
+  }
+  .about3 {
+    float: right; 
+    width: 33%;
+    
+  }
+  .about4 {
+    display: inline-block; width: 33%;
+  }
+  .about5 {
+    float: left; width: 33%;
+  }
+
+  .about1 .about2 .about3 {
+    display: flex;
+    
+  }
+
+
+
+
+}
