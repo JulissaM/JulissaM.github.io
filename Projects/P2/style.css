@@ -13,14 +13,15 @@
 
 .orange {
   width: 100%;
-  height: 3200px;
-  margin-top: -10px;
-  margin-left: -10px;
+  height: 3000px;
+  margin-left: -5px;
   justify-content: center;
   align-items: center;
-  position: fixed;
+  position: absolute;
   background-color: #FF6633;
-  z-index: -100;  
+  z-index: -200;
+  
+ 
 }
 .spiral {
   display: flex;
@@ -28,6 +29,8 @@
   align-items: center;
   position: relative;
   height: 1200px;
+  z-index: 200;
+
 }
 
 .spiralb {
@@ -36,6 +39,7 @@
   align-items: center;
   position: relative;
   overflow: hidden;
+  z-index: 200;
 }
 
 .title {
@@ -45,7 +49,7 @@
   position: absolute;
   text-align: center;
   margin-top: 900px;
-  z-index: 2
+  z-index: 600
 }
 
 .titleb {
@@ -61,7 +65,7 @@
   color: #3399CC;
   position: relative;
   margin-top: -50px;
-  margin-left: 5px;
+  margin-left: 20px;
 
 
 }
@@ -72,7 +76,7 @@
 
 .ap {
   margin-top: -400px;
-
+  margin-left: 20px;
 }
 
 p {
@@ -95,14 +99,9 @@ h2 {
   padding-right: 40px;
 }
 
-.aboutflex {
-  max-width: 1335px;
-  margin: 15px;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
 
-}
+
+
 
 .pic1 {
   width: 49%;
@@ -241,8 +240,12 @@ h3 {
   }
   .atp {
     columns: 3 !important;
-    margin-top: 100px !important;
+  
   }
+  .ap {
+    columns: 3 !important;
+
+    }
   .attraction {
     font-family: 'postercompressed', sans-serif;
     font-size: 600px !important;
@@ -258,47 +261,49 @@ h3 {
 @media(min-width: 1220px) {
   .about {
     font-family: 'postercompressed', sans-serif;
-    font-size: 800px;
+    font-size: 64vw !important;
+    margin-top: -100px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    position: absolute;
   }
+ 
   .ap {
-    margin-top: -600px;
+    
+    min-width: 100% !important;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    margin-top: 200px !important;
+  
+    
+  
+    
+    
   }
 
-  .aboutflex {
-    margin: 15px;
+  .ap {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
-    
-    justify-content: space-between;
-  
+    justify-self: flex-start
+   
+
   }
-  .about1 {
-    float: right; 
-    width: 33%;
-    margin-top: -750px;
-    
-  }
-  .about2 {
-    float: right; 
-    width: 33%;
-    margin-top: -230px;
-  }
-  .about3 {
-    float: right; 
-    width: 33%;
-    
-  }
-  .about4 {
-   float: left;  
-    width: 33%;
-    
-    
-  }
-  .about5 {
-    float: right;
-    width: 33%;
-  }
+.about {
+  float: left;
+  position: relative;
+}
+
+.ap1 {
+  width: 33%;
+  float: right !important;
+}
+
+
+.ap2 {
+  display: flex;
+  flex-direction: row;
+  float: left;
+}
 
 
   .pic1 {
@@ -355,44 +360,25 @@ h3 {
 @media(min-width: 815px) {
   .about {
     font-family: 'postercompressed', sans-serif;
-    font-size: 800px;
+    font-size: 800px
   }
   .ap {
-    margin-top: -600px;
+  columns: 2;
   }
 
-  .aboutflex {
-    margin: 15px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: flex-end;
-    justify-content: space-between;
-  
+  .ap {
+    margin-top: -650px;
+    margin-left: 20px;
+    margin-bottom: 40px;
   }
+
  
     
-  
-  .about2 {
-    float: right; 
-    width: 33%;
-  }
-  .about3 {
-    float: right; 
-    width: 33%;
-    
-  }
-  .about4 {
-    display: inline-block; width: 33%;
-  }
-  .about5 {
-    float: left; width: 33%;
-  }
 
-  .about1 .about2 .about3 {
-    display: flex;
-    
-  }
+
+
+
+
 
   .pic1 {
     width: 49%;
