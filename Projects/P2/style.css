@@ -89,7 +89,7 @@
 
 .about {
   font-family: 'postercompressed', sans-serif;
-  font-size: 500px;
+  font-size: 80vw;
   color: #3399CC;
   position: relative;
   margin-top: 370px;
@@ -148,8 +148,9 @@ position: relative;
 
 .history {
   font-family: 'postercompressed', sans-serif;
-  font-size: 400px;
+  font-size: 70vw;
   color: #FFF200;
+  position: relative;
   margin-left: 5px;
   margin-top: -50px;
 }
@@ -206,25 +207,37 @@ position: relative;
 }
 
 .atp {
-  margin-top: 100px;
+  margin-top: 50px;
   margin-left: 20px;
 }
 
 .attraction {
   font-family: 'postercompressed', sans-serif;
-  font-size: 260px;
+  font-size: 40vw;
   color: #FF1D26;
-  margin-left: 10px;
-  position: absolute;
+  position: relative;
   z-index: 100;
   margin-top: 10px;
 }
+
+.attraction {
+display: flex;
+
+}
+
+.atb {
+  position: relative;
+  display: flex;
+  margin-left: 20px;
+  
+}
+
 .ha {
   display: flex;
   justify-content: flex-start;
   font-size: 40px;
-  margin-top: 300px;
-  margin-left: 20px;;
+  margin-left: 20px;
+  margin-top: -150px;
 }
 
 h3 {
