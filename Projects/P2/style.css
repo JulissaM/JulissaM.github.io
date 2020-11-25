@@ -45,7 +45,7 @@
 }
 .yellow {
   width: 100%;
-  height: 3500px;
+  height: 2000px;
   margin-top: 300px;
   justify-content: center;
   align-items: center;
@@ -53,6 +53,18 @@
   background-color: #F7DE26;
   z-index: -200;
 }
+.red {
+  width: 100%;
+  height: 1000px;
+  margin-top: 300px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: #FF1D26;
+  z-index: -200;
+  overflow: hidden !important;
+}
+
 
 /* Top */
 
@@ -278,6 +290,7 @@ h3 {
 
 .safety1 {
   margin: 15px;
+  columns: 2;
 }
 .safety2 {
   margin-left: 15px;
@@ -301,6 +314,61 @@ h3 {
   position: relative;
   padding-right: 20px;
 }
+
+
+/* Contact */
+
+.cb {
+  display: flex;
+  flex-direction: column;
+}
+.cb2 {
+  margin: 40px;
+}
+
+.contact {
+  font-family: 'postercompressed', sans-serif;
+  font-size: 60vw;
+  color: #A92885;
+  position: relative;
+  
+  margin-top: -50px;
+  margin-bottom: -100px;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+}
+
+.contactb {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.c1 {
+  text-align: center;
+  
+}
+
+.c2 {
+  text-align: center;
+  
+}
+
+.c3 {
+  text-align: center;
+  
+}
+
+.c4 {
+  text-align: center;
+  
+}
+
+
+
 
 
 
@@ -331,6 +399,24 @@ h3 {
 
 
 @media(min-width: 1220px) {
+
+    /* background colors */
+
+  
+    .red {
+      width: 100%;
+      height: 1800px !important;
+      margin-top: 300px;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      background-color: #FF1D26;
+      z-index: -200;
+      overflow: hidden !important;
+    }
+
+
+
 
 /* About */
 
@@ -435,12 +521,109 @@ h3 {
 .atb {
   margin-top: -100px;
 }
+
+
+/* Safety */
+
+.safety1 {
+  margin-top: 100px !important;
+}
+
+.sh2 {
+  font-family: 'itc-avant-garde-gothic-pro', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40pt;
+  color: #fff;
+  position: relative;
+  padding-right: 40px;
+}
+.sp {
+  font-family: 'itc-avant-garde-gothic-pro', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20pt;
+  color: #fff;
+  position: relative;
+  padding-right: 20px;
+}
+
+
+
+/* Contact */
+
+.cb {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.contact {
+  font-family: 'postercompressed', sans-serif;
+  font-size: 40vw;
+  color: #A92885;
+  position: relative;
+  padding: 20px;
+
+}
+
+.c1 {
+  text-align: justify !important;
+  font-size: 16pt !important;
+}
+
+.c2 {
+  text-align: justify !important; 
+  font-size: 16pt !important;
+}
+
+.c3 {
+  text-align: justify !important;
+  font-size: 16pt !important;
+}
+
+.c4 {
+  text-align: justify !important;
+  font-size: 16pt !important;
+}
+
+
+
+
 }
 
 
 
 
 @media(min-width: 815px) {
+
+
+  /* background colors */
+
+  .yellow {
+    width: 100%;
+    height: 2800px;
+    margin-top: 300px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: #F7DE26;
+    z-index: -200;
+  }
+  .red {
+    width: 100%;
+    height: 2000px;
+    margin-top: 300px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: #FF1D26;
+    z-index: -200;
+    overflow: hidden !important;
+  }
+
+
+/* About */
+
   .about {
     font-family: 'postercompressed', sans-serif;
     font-size: 80vw;
@@ -564,7 +747,8 @@ h3 {
   flex-direction: row;
 }
 .safety1 {
-  margin-top: auto;
+  margin-top: 70px;
+  column-count: 1;
 }
 
 .safety {
@@ -577,6 +761,47 @@ h3 {
   margin-bottom: -50px;
 }
 
+.sh2 {
+  font-family: 'itc-avant-garde-gothic-pro', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 25pt;
+  color: #fff;
+  position: relative;
+  padding-right: 40px;
+}
+.sp {
+  font-family: 'itc-avant-garde-gothic-pro', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18pt;
+  color: #fff;
+  position: relative;
+  padding-right: 20px;
+}
+
+
+/* Contact */
+
+.c1 {
+  text-align: center;
+  font-size: 18pt;
+}
+
+.c2 {
+  text-align: center;
+  font-size: 18pt;
+}
+
+.c3 {
+  text-align: center;
+  font-size: 18pt;
+}
+
+.c4 {
+  text-align: center;
+  font-size: 18pt;
+}
 
 
 }
