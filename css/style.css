@@ -5,10 +5,11 @@ General Styles
 
 body {
   margin: 0;
-  font-family: font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 20px;
-  color: #ffffff
+  color: #ffffff;
 }
+
 body {background-color: #F8B3BA}
 h1 {
   color:rgba(255,255, 255, .50);
@@ -45,4 +46,26 @@ nav a:hover {
 nav {
   background-color: white;
   padding: 12px;
+}
+fieldset {
+  border:2px solid white;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;	
+    border-radius:8px;	
+}
+fieldset {
+  margin-right: 900px;
+  margin-top: 40px;
+}
+.thank {
+  color:#453D98;;
+  font-size: 50px;
+  font-family: 'Alfa Slab One', cursive;
+  text-align: center;
+}
+
+.h22 {
+  font-size: 36px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #453D98;
 }
