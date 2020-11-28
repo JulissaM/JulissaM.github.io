@@ -1,10 +1,12 @@
+@import url("https://use.typekit.net/nvs3oqg.css");
 * {
   box-sizing: border-box;
 }
+
 @import url("https://use.typekit.net/nvs3oqg.css");
 @font-face {
   font-family: 'postercompressed';
-  src: url('fonts/PosterCompressed-Regular.ttf');
+  src: url('fonts/PosterCompressed-Regular.ttf') format(truetype);
   font-weight: normal;
   font-size: normal;
 }
@@ -103,6 +105,31 @@
   align-items: center;
   
 }
+
+.title1 {
+  font-family: 'blenny', sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 600px;
+  color: #fff;
+  position: absolute;
+  z-index: 600;
+  margin-top: 400px;
+}
+
+ .bounce-5 {
+        animation-name: bounce-5;
+        animation-timing-function: ease;
+    }
+    @keyframes bounce-5 {
+        0%   { transform: scale(1,1)    translateY(0); }
+        10%  { transform: scale(1.1,.9) translateY(0); }
+        30%  { transform: scale(.9,1.1) translateY(-100px); }
+        50%  { transform: scale(1,1)    translateY(0); }
+        57%  { transform: scale(1,1)    translateY(-7px); }
+        64%  { transform: scale(1,1)    translateY(0); }
+        100% { transform: scale(1,1)    translateY(0); }
+    }
 
 
 /* About */
