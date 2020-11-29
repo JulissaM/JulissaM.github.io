@@ -69,3 +69,15 @@ fieldset {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: #453D98;
 }
+
+.pp {
+  font-size: 20px;
+}
+
+
+div#button{ margin-top: 24px; }
+div#button > a{ background:#453D98; color:white; padding:10px; text-decoration:none; border-radius:5px;  }
+div#button > a:hover{ background: white; }
+div#button > a:active{ background: #453d98; }
+
+
