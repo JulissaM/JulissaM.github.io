@@ -26,7 +26,7 @@
 .purple {
   width: 100%;
   height: 4000px;
-  margin-top: -300px;
+  margin-top: -200px;
   justify-content: center;
   align-items: center;
   position: absolute;
@@ -91,11 +91,11 @@
 
 .title {
   font-family: 'postercompressed', sans-serif;
-  font-size: 200px;
+  font-size: 150px;
   color: #fff;
   position: absolute;
   text-align: center;
-  z-index: 300
+  z-index: 300;
 }
 .title{
   margin-top: 1800px;
@@ -164,7 +164,7 @@ transform: translateY(20%);
 
 .about {
   font-family: 'postercompressed', sans-serif;
-  font-size: 80vw;
+  font-size: 300px;
   color: #3399CC;
   position: relative;
   margin-top: 370px;
@@ -223,7 +223,7 @@ position: relative;
 
 .history {
   font-family: 'postercompressed', sans-serif;
-  font-size: 70vw;
+  font-size: 200px;
   color: #FFF200;
   position: relative;
   margin-left: 5px;
@@ -245,8 +245,9 @@ position: relative;
 .hmole {
   display: flex;
   justify-content: center;
+  text-align: center;
   font-size: 30px;
-  margin-top: -200px;
+  margin-top: -150px;
   margin-left: 15px;
 }
 
@@ -287,7 +288,7 @@ position: relative;
 
 .attraction {
   font-family: 'postercompressed', sans-serif;
-  font-size: 40vw;
+  font-size: 150px;
   color: #FF1D26;
   position: relative;
   z-index: 100;
@@ -334,10 +335,10 @@ h3 {
 
 .safety {
   font-family: 'postercompressed', sans-serif;
-  font-size: 80vw;
+  font-size: 270px;
   color: #00CC00;
   position: relative;
-  margin-top: -50px;
+  margin-top: -30px;
   margin-left: 20px;
   margin-bottom: -50px;
 }
@@ -388,7 +389,7 @@ margin-top: -15px;
 
 .contact {
   font-family: 'postercompressed', sans-serif;
-  font-size: 60vw;
+  font-size: 200px;
   color: #A92885;
   position: relative;
   
@@ -857,6 +858,16 @@ margin-top: -15px;
     overflow: hidden !important;
   }
 
+
+
+  .title {
+    font-family: 'postercompressed', sans-serif;
+    font-size: 20vw;
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    z-index: 300;
+  }
 
 /* About */
 
