@@ -164,12 +164,13 @@ transform: translateY(20%);
 
 .about {
   font-family: 'postercompressed', sans-serif;
-  font-size: 300px;
+  font-size: 200px;
   color: #3399CC;
   position: relative;
-  margin-top: 370px;
+  text-align: center;
+  margin-top: 380px;
   margin-left: 20px;
-  margin-bottom: -50px;
+  margin-bottom: -20px;
 
 
 }
@@ -1029,6 +1030,15 @@ h3 {
 
 
 /* Contact */
+
+.contact {
+  font-family: 'postercompressed', sans-serif;
+  font-size: 40vw !important;
+  color: #A92885;
+  position: relative;
+  padding: 20px;
+
+}
 
 .c1 {
   text-align: center;
