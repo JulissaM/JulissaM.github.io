@@ -103,6 +103,26 @@ color: #F25050;
 .navimage {
     height: 400px;
 }
+
+.navimage:hover {
+    transform: scale(1.15,1.15);
+    animation: jiggle 0.5s infinite linear;
+
+}
+
+
+@keyframes jiggle {
+    0% {transform: rotate(0deg) scale(1.15,1.15);}
+    50% {transform: rotate(2deg) scale(1.15,1.15);}
+    100% {transform: rotate(-2deg) scale(1.15,1.15)}
+  }
+
+
+
+
+
+
+
 .rectangle {
     width:60px;
     height:100%;
